@@ -1,0 +1,67 @@
+<hidden>
+  <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</hidden>
+<body id="pageBack">
+  <head>
+    <h1 id="title">The MEK Company <sup id="superText">(Pty/Ltd)</sup></h1>
+    <p id="description">Job Application Survey</p>
+  </head>
+  <form id="survey-form">
+    <div id="labelPos">
+      <div id="textForms">
+        <label id="name-label" for="name">Name :</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <label id="email-label" for="email">Email :</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <label id="number-label" for="number">Age :</label>
+        <input id="number" type="number" placeholder="Select age from scroll bars" min="18" max="25" required>
+        <label id="dropdown-label" for="dropdown">Job Experience :</label>
+        <select id="dropdown">
+        <option>No prior experience</option>
+        <option>Less than 1 Year</option>
+        <option>1 Years experience</option>
+        <option>2 Years experience</option>
+        <option>3+ Years experience</option>
+      </select>
+      </div>
+      <div id="radioDiv">
+        <u>How did you hear about us?</u><br>
+        <label id="social-radio" for="social">Social Media (i.e. twitter, Youtube,etc.)</label>
+        <input id="social" type="radio" name="advert" value="6" required><br>
+        <label id="tradit-radio" for="traditional">Traditional Media (i.e. Newspapers,etc.)</label>
+        <input id="traditional" type="radio" name="advert" value="7" required><br>
+        <label id="friend-radio" for="friend">Friends and Family</label>
+        <input id="friend" type="radio" name="advert" value="8" required><br>
+        <label id="other-radio" for="other">Other</label>
+        <input id="other" type="radio" name="advert" value="9" required>
+      </div><br>
+      <div id="checkboxDiv">
+        <u>What attracted you to this Job?<br>(mark all that apply)</u><br>
+        <label id="moneyCheck" for="money">Salary</label>
+        <input id="money" type="checkbox" name="attraction" value="2"><br>
+        <label id="benefitCheck" for="benefits">Benefits</label>
+        <input id="benefits" type="checkbox" name="attraction" value="2"><br>
+        <label id="compCheck" for="comp">Company reputation</label>
+        <input id="comp" type="checkbox" name="attraction" value="3"><br>
+        <label id="lockCheck" for="lock">Location</label>
+        <input id="comp" type="checkbox" name="attraction" value="4"><br>
+        <label id="positCheck" for="posit">Position</label>
+        <input id="posit" type="checkbox" name="attraction" value="5">
+      </div><br>
+      <div id="commentDiv">
+        <label id="comLabel" for="comment">Additional Comments :</label>
+        <textarea id="comment" rows="5" cols="1"></textarea>
+      </div>
+    </div>
+    <div>
+      <input type="submit" id="submit">
+    </div>
+  </form>
+</body>
+
+
+

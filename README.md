@@ -6,4 +6,4 @@ Created only using HTML and CSS.<br><br>
 Not Scalable<br>
 Survey webpage built for job application capturing.<br><br>
 
-<a href="https://codepen.io/mekglitch/details/MWebWYK">Link to view original on codepen.</a>
+<a href="https://codepen.io/mekglitch/full/MWebWYK">Link to view original on codepen.</a>
